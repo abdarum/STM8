@@ -1,6 +1,9 @@
 #include "stm8l.h"
 
-// 0x20 - PB5
+// 0x20 - PB5 - LED
+// Board description:
+// https://tenbaht.github.io/sduino/hardware/stm8blue/
+// Simple setup tutorial:
 // https://www.cnx-software.com/2015/04/13/how-to-program-stm8s-1-board-in-linux/ 
 int main() {
         int d;
