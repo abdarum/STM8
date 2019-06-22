@@ -21,6 +21,6 @@ int main() {
 		/* Toggles LEDs */
 		GPIO_WriteReverse(LED_GPIO_PORT, (GPIO_Pin_TypeDef)LED_GPIO_PINS);
 		// d < 29000
-                for(d = 0; d < 9000; d++) { }
+                for(d = 0; d < 29000; d++) { }
         } while(1);
 }
